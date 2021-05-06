@@ -1,0 +1,65 @@
+=======
+
+Introduction
+
+A dataset containing reviews of restaurants in the Champaign-Urbana
+area scraped from https://www.yelp.com
+
+Each review contains the raw text and star rating as originally 
+given by the reviewer.
+
+Originally created for his final project in LING 406 by John Hall,
+Spring 2016.
+
+=======
+
+Data Format Summary 
+
+- yelp_reviews.tar.gz: contains this readme and the full dataset
+	contained in all_reviews.txt
+	
+- All reviews have been cleaned of their original html and their 
+	raw texts and ratings have been placed in all_reviews.txt
+
+  Specifically (with an example given at the end of this readme):
+
+	A single instance of a review consists of that review's rating enclosed in a 
+	triple set of braces followed by the raw text of the review itself enclosed 
+	in a triple	set of brackets.
+	
+	The rating inside the braces is preceded and followed by a single newline.
+	
+	The raw text inside the brackets is preceded and followed by four newlines.
+	
+	A single newline separates the rating and raw text.
+	
+	A single newline separates each review instance.
+	
+=======
+
+Data breakdown:
+
+- There are 10391 reviews in the dataset, each with 
+	rating={1star, 2star, 3star, 4star, 5star}
+	
+	count 1star = 1172
+	count 2star = 1358
+	count 3star = 1795
+	count 4star = 2947
+	count 5star = 3119
+
+
+=======
+
+{{{
+1star
+}}}
+[[[
+
+
+
+I ordered Kung pao chicken, it came with pieces of chicken chucked in celery and peppers. The chicken pieces were hard, almost raw, the dish was barely edible. I called them and let them know, he said he personally packed it and it was 'double cooked', and "If I don't find the taste to my liking, sorry about that" I requested a coupon for next time, nope! We don't do that! Yes thank you very much chopstix, just coz you are one of the few who deliver late at night (this was afternoon btw) you think you'll not care about your customers. Drag yourself to Cravings or Panda express (which is way off campus but amazing). Do not bother with this restaurant.
+
+
+
+]]]
